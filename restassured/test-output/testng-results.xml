@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-19T20:18:46 IST" name="Default suite" finished-at="2021-10-19T20:18:51 IST" duration-ms="4732">
+    <groups>
+      <group name="post">
+        <method signature="RestassuredExample.postRestassuredExample()[pri:0, instance:com.lao.restassured.RestassuredExample@74455848]" name="postRestassuredExample" class="com.lao.restassured.RestassuredExample"/>
+      </group> <!-- post -->
+      <group name="get">
+        <method signature="RestassuredExample.testingRestAssured()[pri:0, instance:com.lao.restassured.RestassuredExample@74455848]" name="testingRestAssured" class="com.lao.restassured.RestassuredExample"/>
+      </group> <!-- get -->
+      <group name="delete">
+        <method signature="RestassuredExample.deleteRestAssuredExample()[pri:0, instance:com.lao.restassured.RestassuredExample@74455848]" name="deleteRestAssuredExample" class="com.lao.restassured.RestassuredExample"/>
+      </group> <!-- delete -->
+      <group name="put">
+        <method signature="RestassuredExample.putRestassuredExample()[pri:0, instance:com.lao.restassured.RestassuredExample@74455848]" name="putRestassuredExample" class="com.lao.restassured.RestassuredExample"/>
+      </group> <!-- put -->
+    </groups>
+    <test started-at="2021-10-19T20:18:46 IST" name="Default test" finished-at="2021-10-19T20:18:51 IST" duration-ms="4732">
+      <class name="com.lao.restassured.RestassuredExample">
+        <test-method signature="deleteRestAssuredExample()[pri:0, instance:com.lao.restassured.RestassuredExample@74455848]" started-at="2021-10-19T20:18:46 IST" name="deleteRestAssuredExample" finished-at="2021-10-19T20:18:50 IST" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRestAssuredExample -->
+        <test-method signature="postRestassuredExample()[pri:0, instance:com.lao.restassured.RestassuredExample@74455848]" started-at="2021-10-19T20:18:50 IST" name="postRestassuredExample" finished-at="2021-10-19T20:18:50 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRestassuredExample -->
+        <test-method signature="putRestassuredExample()[pri:0, instance:com.lao.restassured.RestassuredExample@74455848]" started-at="2021-10-19T20:18:50 IST" name="putRestassuredExample" finished-at="2021-10-19T20:18:51 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRestassuredExample -->
+        <test-method signature="testingRestAssured()[pri:0, instance:com.lao.restassured.RestassuredExample@74455848]" started-at="2021-10-19T20:18:51 IST" name="testingRestAssured" finished-at="2021-10-19T20:18:51 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingRestAssured -->
+      </class> <!-- com.lao.restassured.RestassuredExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
